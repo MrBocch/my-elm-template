@@ -1,4 +1,4 @@
-# Basic Elm Template
+# Basic Elm (0.19.X) Template
 
 A basic Elm template for Single Page Applications
 
