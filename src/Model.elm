@@ -1,5 +1,6 @@
-module Model exposing (Model, Msg(..), init)
+module Model exposing (Model, init)
 
+import Msg exposing (Msg(..))
 import Time exposing (Posix)
 
 type alias Model = Int
@@ -10,7 +11,3 @@ initModel = 0
 init : () -> (Model, Cmd Msg)
 init _ = (initModel, Cmd.none)
 
-type Msg
-    = Increment
-    | Decrement
-    | Tick Posix
