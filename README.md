@@ -6,10 +6,10 @@ A basic Elm template for Single Page Applications
 
 ```
 elm init
-elm make src/Main.elm --output=main.js
+./build.sh
 ```
 
-Dont forget to compile to JS, instead of overwriting index.html.
+Edit build.sh file if you want to add debug flag. 
 
 ## :P
 
