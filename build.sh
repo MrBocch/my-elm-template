@@ -1,6 +1,8 @@
 #!/usr/bin/env zsh
 
-elm make src/Main.elm --output=static/main.js --optimize # --debug
+# uncomment what you want 
+elm make src/Main.elm --output=static/main.js --debug 
+# elm make src/Main.elm --output=static/main.js --optimize 
 
 # Minify the output with UglifyJS
 # i should pay more attention to the code by the creator of elm
